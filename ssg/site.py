@@ -29,4 +29,4 @@ class Site:
             if path.is_dir():
                 self.create_dir(path)
             elif path.is_file():
-                self.run_parser(path)s
+                self.run_parser(path)
